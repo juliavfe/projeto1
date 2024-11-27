@@ -1,28 +1,19 @@
 La Ursa Walk
 
-O La Ursa Walk é um projeto que promove caminhadas pela área do Recife Antigo, passando por pontos turísticos e incentivando a prática de atividade física, ao mesmo tempo em que a população aprenda sobre os pontos turisticos da cidade.
+Descrição
+La Ursa Walk é um projeto que promove caminhadas interativas pela área do Recife Antigo, incentivando a prática de atividade física enquanto proporciona uma experiência educativa sobre os pontos turísticos da cidade. Usando Arduino, RFID, LEDs e alertas sonoros, o projeto guia os participantes durante a caminhada e fornece informações sobre os locais visitados.
 
-Como Funciona
+Inicie o Sistema:
+Ao ligar o Arduino,o sistema irá iniciar.
+Os LEDs e a caixa de som devem emitir sinais de que o sistema está pronto para iniciar a caminhada.
+Ao iníciar,você deverá colocar o cartão para o RFID ler e reconhcer a pessoa já cadastrada.Os LEDs e o som irão ativar, indicando que a caminhada foi iniciada.
 
-Início da Caminhada: O usuário começa a caminhada e o Arduino, usando o RFID, fornecendo informações sobre o ponto turístico atual.
-Guias Visuais e Sonoros: Ao comecar a caminhada, o sistema aciona LEDs e emite sons, para demostrar que a caminhada está comecando
-Monitoramento: O Arduino monitora a distância percorrida,pelo uso de cadastro pelo RFID.
-Final da Caminhada: Ao chegar no final do percurso,o sistema mostra a distância total percorrida  e encerra a caminhada.
+ Durante a Caminhada:
+A cada ponto turístico que você atingir,o sistema ativará um LED para mostrar que você chegou a um novo local.
+Além disso, a caixa de som emitirá um alerta sonoro e fornecerá informações sobre o ponto turístico atual, como nome e curiosidades.
+Distância:
+O sistema pode ser configurado para contar a distância percorrida ou os pontos turísticos visitados. O RFID ajuda a monitorar seu progresso à medida que você passa por cada ponto de interesse.
 
-Utilizado
+Final da Caminhada:
+Ao atingir o ponto final do percurso, o sistema irá exibir a distância total percorrida e finalizar a caminhada.
 
-2 Placas de Arduino 
-LEDs no olho da La ursa
-Caixa de som para alertas sonoros
-RFID para o registro dsa corrida
-Como Usar
-
-Montagem:
-Conecte os Arduino aos LEDs e RFID.
-Colocar a caixa de som, para a reprodução dos sons
- Código:
-Upload do código no Arduino .
-O código controla o RFID,LEDs e a distância percorrida.
-
-Inicie a Caminhada:
-Ao iniciar a caminhada,você ira passar por pontos turísticos no Recife Antigo.
